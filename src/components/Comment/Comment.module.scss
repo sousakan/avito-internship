@@ -1,0 +1,51 @@
+.comment {
+  padding: 20px;
+
+  border: 1px solid var(--gray);
+  border-radius: 10px;
+}
+
+.clickable {
+  cursor: pointer;
+}
+
+.comment__header {
+  margin-bottom: 5px;
+}
+
+.comment__author {
+  font-size: 14px;
+  color: var(--black);
+  font-weight: 500;
+
+  position: relative;
+
+  margin-right: 20px;
+
+  &::after {
+    content: '';
+
+    position: absolute;
+    display: block;
+
+    top: 0;
+    right: -10px;
+
+    width: 1px;
+    height: 100%;
+    background-color: var(--black);
+  }
+}
+
+.comment__detail {
+  font-size: 14px;
+  color: var(--black);
+  font-weight: 400;
+}
+
+.comment__text,
+.comment__text a {
+  font-size: 14px;
+  color: var(--black);
+  font-weight: 400;
+}

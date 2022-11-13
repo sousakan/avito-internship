@@ -1,0 +1,30 @@
+.link {
+  text-decoration: none;
+}
+
+.card__content {
+  padding: 20px;
+
+  border: 1px solid var(--gray);
+  border-radius: 10px;
+
+  transition: box-shadow 0.2s linear;
+
+  &:hover {
+    box-shadow: 3px 3px 5px rgb(0 0 0 / 20%);
+  }
+}
+
+.card__title {
+  font-size: 20px;
+  font-weight: 500;
+  color: var(--black);
+
+  margin-bottom: 5px;
+}
+
+.card__info {
+  color: var(--black);
+  font-size: 14px;
+  font-weight: 400;
+}

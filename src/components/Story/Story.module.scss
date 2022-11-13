@@ -1,0 +1,45 @@
+.story__title {
+  font-size: 24px;
+  font-weight: 700;
+  color: var(--black);
+
+  margin-bottom: 40px;
+}
+
+.story__subtitle {
+  font-size: 16px;
+  font-weight: 600;
+  color: var(--black);
+
+  margin-bottom: 20px;
+}
+
+.story__line {
+  margin-bottom: 15px;
+
+  &:last-of-type {
+    margin-bottom: 0;
+  }
+}
+
+.story__key {
+  font-size: 14px;
+  font-weight: 500;
+  color: var(--black);
+
+  margin-right: 3px;
+}
+
+.story__value {
+  font-size: 14px;
+  font-weight: 400;
+  color: var(--black);
+}
+
+.story__link {
+  text-decoration: none;
+}
+
+.story__comments {
+  margin-top: 40px;
+}
